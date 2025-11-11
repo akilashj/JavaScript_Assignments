@@ -1,3 +1,5 @@
+'use strict'
+
 function getParticipants() {
   const number = parseInt(prompt("Enter the number of participants:"));
 
@@ -9,7 +11,7 @@ function getParticipants() {
   const participants = [];
 
   for (let i = 0; i < number; i++) {
-    const name = prompt("Enter the name of participant ${i + 1}:");
+    const name = prompt(`Enter the name of participant ${i + 1}:`);
     participants.push(name.trim());
   }
   participants.sort();
