@@ -22,3 +22,5 @@ if (primenumber) {
 } else {
   output = `${number} is not a Prime Number.`;
 }
+
+document.querySelector('#result').innerHTML = output;
