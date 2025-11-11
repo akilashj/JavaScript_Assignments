@@ -1,5 +1,4 @@
 'use strict'
-
 function getParticipants() {
   const number = parseInt(prompt("Enter the number of participants:"));
 
@@ -23,5 +22,5 @@ function getParticipants() {
   result += "</ol>";
 
 
-  document.querySelector("output").innerHTML = result;
+  document.getElementById("output").innerHTML = result;
 }
