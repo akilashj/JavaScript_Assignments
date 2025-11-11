@@ -19,3 +19,11 @@ function checkNumbers() {
     numbers.push(num);
   }
 
+  numbers.sort((a, b) => a - b);
+
+  console.log("Numbers Entered in Ascending Order:");
+  for (let n of numbers) {
+    console.log(n);
+  }
+}
+
