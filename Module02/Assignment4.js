@@ -12,6 +12,13 @@ function sortNumbers() {
     if (!isNaN(num)) {
       numbers.push(num);
     } else {
-      alert("Please enter a valid number!");
+      alert("Please Enter a Valid Number!");
     }
   }
+  numbers.sort((a, b) => b - a);
+
+  console.log("Numbers from Largest to Smallest:");
+  for (let n of numbers) {
+    console.log(n);
+  }
+}
