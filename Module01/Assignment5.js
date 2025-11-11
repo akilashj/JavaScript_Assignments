@@ -3,7 +3,7 @@
 const year = parseInt(prompt('Enter a year:'));
 
 let result = '';
-if ((year / 4 == 0 && year / 100! == 0 ) || (year / 400 == 0)){
+if ((year / 4 == 0 && year / 100 == 0 ) || (year / 400 == 0)){
 result = `${year} is a Leap Year!`;
 }
 
