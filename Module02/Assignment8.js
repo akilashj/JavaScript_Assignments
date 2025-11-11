@@ -8,3 +8,7 @@ for (let i = 0; i < stringsArray.length; i++) {
 
   return result;
 }
+const names = ["Johnny", "DeeDee", "Joey", "Marky"];
+
+const combined = concat(names);
+document.getElementById("result").innerHTML = `<p>${combined}</p>`;
