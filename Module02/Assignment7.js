@@ -19,7 +19,7 @@ function startRolling() {
     output += `<li>You rolled: ${roll}</li>`;
   } while (roll !== sides);
 
-  output += `</ul><p>🎉 You rolled the maximum number: ${sides}!</p>`;
+  output += `</ul><p> You rolled the maximum number: ${sides}!</p>`;
 
   document.getElementById("result").innerHTML = output;
 }
