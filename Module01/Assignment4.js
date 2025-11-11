@@ -20,3 +20,6 @@ house = "Hufflepuff";
 else{
 house = "Ravenclaw";
 }
+
+document.querySelector('#result').innerHTML = `
+  <strong>${studentName}</strong>, you are <strong>${house}</strong>! 🪄
