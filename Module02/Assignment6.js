@@ -6,3 +6,13 @@ function rollDice() {
 function rollUntilSix() {
   let roll;
   let output = "<ul>";
+
+  do {
+    roll = rollDice();
+    output += `<li>You rolled: ${roll}</li>`;
+  } while (roll !== 6);
+
+  output += "</ul>";
+
+  document.getElementById("result").innerHTML = output;
+}
