@@ -13,3 +13,13 @@ function startRolling() {
 
   let roll;
   let output = `Rolling a ${sides}-sided dice...<ul>`;
+
+  do {
+    roll = rollDice(sides);
+    output += `<li>You rolled: ${roll}</li>`;
+  } while (roll !== sides);
+
+  output += `</ul><p>🎉 You rolled the maximum number: ${sides}!</p>`;
+
+  document.getElementById("result").innerHTML = output;
+}
