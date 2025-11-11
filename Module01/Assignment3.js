@@ -8,6 +8,6 @@ const product = num1 * num2 * num3;
 const average = sum / 3;
 
 document.querySelector('#result').innerHTML = `
-  Sum: ${sum}
-  Product: ${product}
+  Sum: ${sum} <br>
+  Product: ${product} <br>
   Average: ${average.toFixed(2)}`;
