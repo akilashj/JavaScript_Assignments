@@ -12,3 +12,14 @@ function Participants() {
     const name = prompt(`Enter the name of participant ${i + 1}:`);
     participants.push(name.trim());
   }
+  participants.sort();
+
+  let result = "<ol>";
+  for (let name of participants) {
+    result += `<li>${name}</li>`;
+  }
+  result += "</ol>";
+
+
+  document.getElementById("output").innerHTML = result;
+}
