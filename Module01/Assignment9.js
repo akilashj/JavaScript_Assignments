@@ -15,3 +15,10 @@ else {
     }
   }
 }
+
+let output;
+if (primenumber) {
+  output = `${number} is a Prime Number!`;
+} else {
+  output = `${number} is not a Prime Number.`;
+}
