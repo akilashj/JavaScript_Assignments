@@ -8,3 +8,12 @@ for (let i = 0; i < 6; i++) {
   }
 
 dogs.sort().reverse();
+
+let output = "<ul>";
+  for (let dog of dogs) {
+    output += `<li>${dog}</li>`;
+  }
+  output += "</ul>";
+
+  document.getElementById("result").innerHTML = output;
+}
