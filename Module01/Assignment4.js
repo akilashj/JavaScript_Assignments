@@ -25,4 +25,4 @@ house = "Ravenclaw";
 }
 
 document.querySelector('#result').innerHTML = `
-  ${studentname}, Your House is ${house}, !`
+  ${studentname}, You are ${house}, !`
