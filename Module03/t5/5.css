@@ -1,0 +1,32 @@
+html {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0ddd5;
+}
+
+.container {
+  width: 60rem;
+  margin: auto;
+}
+
+header {
+  background-color: #3ea9dd;
+  padding: 1rem;
+  color: #fff;
+}
+
+main {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
