@@ -4,3 +4,6 @@
   padding: 1rem;
   list-style-type: none;
 }
+.my-list li {
+  margin: 0.5rem 0;
+}
