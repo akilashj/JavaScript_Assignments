@@ -1,4 +1,6 @@
 .my-list {
   background-color: rgb(211, 62, 62);
   color: #fff;
+  padding: 1rem;
+  list-style-type: none;
 }
