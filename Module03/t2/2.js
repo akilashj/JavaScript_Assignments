@@ -1,6 +1,7 @@
 
 const target = document.getElementById('target');
 
+
 const li1 = document.createElement('li');
 li1.textContent = 'First item';
 
@@ -14,3 +15,4 @@ li3.textContent = 'Third item';
 target.appendChild(li1);
 target.appendChild(li2);
 target.appendChild(li3);
+
